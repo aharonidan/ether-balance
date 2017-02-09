@@ -1,4 +1,3 @@
-# sequel -m migrations sqlite://data.sqlite
 Sequel.migration do
   change do
     create_table(:accounts) do
