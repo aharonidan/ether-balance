@@ -36,8 +36,8 @@ class App < Roda
   end
 
   ##
-  # get_balance returns the balance of a given Ethereum address
-  # or nil if address does not exist.
+  # 'get_balance' returns the balance of a given Ethereum address
+  #  or nil if address does not exist.
   ##
   def get_balance(address)
     url = "https://etherchain.org/api/account/#{address}"
